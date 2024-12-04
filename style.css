@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.hero{
+    padding: 3rem 10rem;
+    background-color: black;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* position: fixed; */
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 16px;
+    list-style: none;
+    align-items: center;
+}
+.nav-header-box{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+.nav-title{
+    color: cornsilk;
+    text-decoration: none;
+    
+}
+
+.main-nav-list{
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+.main-nav-list:hover::before{
+    content: "";
+    height: 10px;
+    width: 100px;
+    background-color: #93b393;
+}
+.main-nav-list:hover{
+    color: #93b393;
+}
+
+.product-box{
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+    position: relative;
+}
+.product-box:hover{
+    color: #93b393;
+}
+.product-list{
+    list-style: none;
+    display: none;
+    position: absolute;
+}
+.main-product-list{
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+.main-product-list:hover{
+    color: #93b393;
+}
+.other-box{
+    text-decoration: none;
+    color: white;
+}
+.other-box:hover{
+    color: #93b393;
+}
+.order-list{    
+    list-style: none;
+}
+.main-other-list{
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+}
+.main-other-list:hover{
+    color: #93b393;
+}
+
+.nav-btn{
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #E5F2E5;
+    color: black;
+    font-style: oblique;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    transition: .4s;
+}
+.nav-btn:hover{
+    background-color: #93b393;
+    color: white;
+}
